@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[opening amazon]]>
+    </line>
+    <line>
+      <![CDATA[opening flipkart]]>
+    </line>
+    <line>
+      <![CDATA[opening flipkart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-17T14:02:00 IST" name="Suite" finished-at="2023-08-17T14:02:40 IST" duration-ms="39836">
+    <groups>
+    </groups>
+    <test started-at="2023-08-17T14:02:00 IST" name="Test" finished-at="2023-08-17T14:02:40 IST" duration-ms="39836">
+      <class name="eCommerce.Amazon">
+        <test-method signature="AmazonTest()[pri:0, instance:eCommerce.Amazon@16d04d3d]" started-at="2023-08-17T14:02:00 IST" name="AmazonTest" finished-at="2023-08-17T14:02:13 IST" duration-ms="12127" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonTest -->
+      </class> <!-- eCommerce.Amazon -->
+      <class name="eCommerce.Ajio">
+        <test-method signature="AjioTest()[pri:0, instance:eCommerce.Ajio@77847718]" started-at="2023-08-17T14:02:24 IST" name="AjioTest" finished-at="2023-08-17T14:02:40 IST" duration-ms="15927" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening flipkart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AjioTest -->
+      </class> <!-- eCommerce.Ajio -->
+      <class name="eCommerce.Flipkart">
+        <test-method signature="FlipkartTest()[pri:0, instance:eCommerce.Flipkart@158d2680]" started-at="2023-08-17T14:02:13 IST" name="FlipkartTest" finished-at="2023-08-17T14:02:24 IST" duration-ms="11635" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening flipkart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipkartTest -->
+      </class> <!-- eCommerce.Flipkart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
